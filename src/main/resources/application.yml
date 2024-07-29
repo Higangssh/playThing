@@ -7,10 +7,16 @@ spring:
     date-format: yyyy-MM-dd HH:mm
   profiles:
     active:
-      - dbDev
+    - dbDev
+
 
 springdoc:
   swagger-ui:
     path: /
     csrf:
       enabled: true
+#logging:
+#  level:
+#    root: INFO
+#    org.springframework: DEBUG
+#    org.hibernate: DEBUG

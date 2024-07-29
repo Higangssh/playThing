@@ -7,9 +7,4 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories
 @SpringBootTest
 @EnableJpaRepositories
 class PlayTingApplicationTests {
-
-    @Test
-    fun contextLoads() {
-    }
-
 }

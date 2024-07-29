@@ -1,8 +1,7 @@
 package com.the.playting.policy.service
 
-import com.the.playting.policy.model.entities.Policy
 import com.the.playting.policy.infrastructure.repository.PolicyRepository
-import jakarta.persistence.EntityManager
+import com.the.playting.policy.model.entities.Policy
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
@@ -20,8 +19,6 @@ class PolicyServiceTest{
 
     @Autowired
     private lateinit var policyRepository: PolicyRepository
-    @Autowired
-    private lateinit var entityManager: EntityManager
 
 
     @Test
