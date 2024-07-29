@@ -1,7 +1,7 @@
 package com.the.playting.policy.service
 
 import com.the.playting.policy.model.entities.Policy
-import com.the.playting.policy.repository.PolicyRepository
+import com.the.playting.policy.infrastructure.repository.PolicyRepository
 import jakarta.persistence.EntityManager
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.DisplayName

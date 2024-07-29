@@ -1,10 +1,10 @@
-package com.the.playting.policy.repository
+package com.the.playting.policy.infrastructure.repository
 
 import com.the.playting.policy.model.entities.Policy
 import org.springframework.data.jpa.repository.JpaRepository
 import org.springframework.stereotype.Repository
 
 @Repository
-interface PolicyRepository : JpaRepository<Policy ,Int> {
+interface PolicyRepository : JpaRepository<Policy , Long> {
 
 }

@@ -11,7 +11,7 @@ class Policy(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
-    var id: Int = 0,
+    var id: Long = 0,
 
     @Column(nullable = false , name = " policy_title")
     var title: String,
