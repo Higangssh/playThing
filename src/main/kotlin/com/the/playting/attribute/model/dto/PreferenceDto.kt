@@ -1,6 +1,6 @@
-package com.the.playting.policy.model.dto
+package com.the.playting.attribute.model.dto
 
-import com.the.playting.policy.model.entities.Preference
+import com.the.playting.attribute.model.entities.Preference
 
 data class PreferenceRequestDto(
     val description: String

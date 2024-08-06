@@ -1,8 +1,8 @@
-package com.the.playting.policy.controller
+package com.the.playting.attribute.controller
 
-import com.the.playting.policy.model.dto.PreferenceRequestDto
-import com.the.playting.policy.model.dto.PreferenceResponseDto
-import com.the.playting.policy.service.PreferenceService
+import com.the.playting.attribute.model.dto.PreferenceRequestDto
+import com.the.playting.attribute.model.dto.PreferenceResponseDto
+import com.the.playting.attribute.service.PreferenceService
 import io.swagger.v3.oas.annotations.tags.Tag
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

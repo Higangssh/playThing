@@ -1,6 +1,6 @@
-package com.the.playting.policy.model.entities
+package com.the.playting.attribute.model.entities
 
-import com.the.playting.policy.model.dto.PreferenceResponseDto
+import com.the.playting.attribute.model.dto.PreferenceResponseDto
 import jakarta.persistence.*
 
 @Entity

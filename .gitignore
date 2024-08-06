@@ -40,4 +40,5 @@ out/
 .kotlin
 
 src/main/resources/application-dbDev.yml
+src/main/resources/application-dbProd.yml
 .env

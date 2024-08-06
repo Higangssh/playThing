@@ -1,8 +1,8 @@
-package com.the.playting.policy.service
+package com.the.playting.attribute.service
 
-import com.the.playting.policy.infrastructure.repository.PreferenceRepository
-import com.the.playting.policy.model.dto.PreferenceRequestDto
-import com.the.playting.policy.model.dto.PreferenceResponseDto
+import com.the.playting.attribute.infrastructure.repository.PreferenceRepository
+import com.the.playting.attribute.model.dto.PreferenceRequestDto
+import com.the.playting.attribute.model.dto.PreferenceResponseDto
 import org.springframework.data.domain.Sort
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Service
